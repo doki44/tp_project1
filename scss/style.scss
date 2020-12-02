@@ -159,6 +159,7 @@ a{
     height: 59px;
     border-radius: 12px;
     background-color: $link;
+    margin-top: 21px;
     margin-bottom: 25px;
     position: relative;
 }
@@ -265,6 +266,7 @@ a{
     background: #FFFFFF;
     box-shadow: 0 0 10px rgba(143, 143, 143, 0.4);
     border-radius: 12px;
+    margin-top: 21px;
     margin-right: -15px;
     margin-left: -15px;
     &__text{       
@@ -370,7 +372,7 @@ a{
     list-style: none;
 }
 .titles li{
-    min-height: 49px;
+    height: 49px;
     padding: 14px 0 14px 0;
     border-bottom: 1px solid #F4F4F5;
     min-width: 144px;
