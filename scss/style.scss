@@ -140,13 +140,13 @@ a{
 
 //Контент
 
-.container-head{
-    padding: 11px 15px; 
-    background: ghostwhite;
+.container-main{
+    padding: 11px 15px;    
 }
 
-.head{
+.main{
     height: 100%;
+    background: ghostwhite;
 }
 
 .text__main{
@@ -304,9 +304,7 @@ a{
     background: #FFFFFF;
     box-shadow: 0 0 10px rgba(143, 143, 143, 0.4);
     border-radius: 12px;
-    margin-top: 21px;
-    margin-left: -15px;
-    margin-right: -15px;
+    margin: 21px -15px 85px -15px;
     text-align: center;
 }
 .personal ul{
@@ -337,7 +335,7 @@ a{
     margin-left: -15px;
 }
 
-.head{
+.main{
     &__inner{
         display: flex;
         margin: 0;
@@ -408,4 +406,17 @@ a{
     font-size: 17px;
     line-height: 20px;
     text-align: center;
+}
+
+.item1{
+    margin-left: 16px;
+    margin-right: 8px;
+    padding-top: 8px;
+    height: 83px;
+    display: inline;
+    text-align: center;
+    font-family: 'PTSans-Regular';
+    font-size: 17px;
+    line-height: 20px;
+    color: $main;
 }
