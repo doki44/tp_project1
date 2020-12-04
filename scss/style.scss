@@ -47,9 +47,7 @@ a {
 }
 
 .header {
-    font-family: "Roboto-Bold", "Arial", "sans-serif ";
-    font-weight: 700;
-    font-style: normal;
+    font-family: "Roboto-Bold";
     background-color: $main;
     &-top {
         min-height: 60px;
@@ -155,6 +153,11 @@ a {
 .main {
     height: 100%;
     background: ghostwhite;
+    &__inner {
+        display: flex;
+        margin: 0;
+        justify-content: space-between;
+    }
 }
 
 .text__main {
@@ -305,6 +308,161 @@ a {
     min-width: 107px;
 }
 
+//Прайс-лист
+
+.price {
+    min-width: 320px;
+    min-height: 348px;
+    background: #ffffff;
+    box-shadow: 0 0 10px rgba(143, 143, 143, 0.4);
+    border-radius: 12px;
+    margin-top: 21px;
+    margin-right: -15px;
+    margin-left: -15px;
+    &__text {
+        display: flex;
+        margin: 0;
+        justify-content: space-between;
+        text-align: center;
+        align-items: center;
+    }
+}
+
+.price__text a {
+    font-family: "PTSans-Regular";
+    font-size: 14px;
+    line-height: 20px;
+    color: #b7a7d7;
+    width: 65px;
+    height: 38px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.price__text a:focus {
+    color: $main;
+    margin: 0;
+    width: 80px;
+    border-bottom: 2px solid #62319e;
+    min-width: 80px;
+}
+
+.price_label_placeholder {
+    position: relative;
+    min-width: 320px;
+    min-height: 46px;
+    display: flex;
+    &_label {
+        position: relative;
+        width: 121px;
+        height: 20px;
+        font-size: 14px;
+        top: 13px;
+        line-height: 20px;
+        border-radius: 14px;
+        border: 1px solid #b7a7d7;
+        display: flex;
+        background-color: #b7a7d7;
+        margin-left: 16px;
+    }
+    &_btn {
+        position: relative;
+        float: right;
+        // align-items: right;
+        top: 15px;
+        width: 28px;
+        height: 28px;
+        background: #fff;
+        display: inline;
+    }
+}
+
+.price__inner {
+    display: flex;
+
+    margin: 0;
+    justify-content: space-between;
+}
+
+.price_info_block_top {
+    margin-top: 12px;
+    position: relative;
+    min-width: 320px;
+    min-height: 46px;
+    background: #260b5d;
+    border-radius: 12px 12px 0 0;
+}
+.price_info_block_top p {
+    position: relative;
+    left: 28px;
+    top: 13px;
+    color: #fff;
+}
+
+.paragraphs {
+    font-family: "PTSans-Regular";
+    font-size: 17px;
+    line-height: 20px;
+    color: #9285ae;
+}
+.paragraphs ul {
+    list-style: none;
+}
+.paragraphs li {
+    padding: 14px 0 14px 16px;
+    border-bottom: 1px solid #f4f4f5;
+    min-width: 144px;
+}
+
+.titles {
+    font-family: "PTSans-Regular";
+    font-size: 17px;
+    line-height: 20px;
+    color: $main;
+    margin-right: 16px;
+    text-align: right;
+}
+.titles ul {
+    list-style: none;
+}
+.titles li {
+    height: 49px;
+    padding: 14px 0 14px 0;
+    border-bottom: 1px solid #f4f4f5;
+    min-width: 144px;
+}
+
+.price_info_block_bottom {
+    position: relative;
+    min-width: 320px;
+    min-height: 46px;
+    background: #b7a7d7;
+    border-radius: 0 0 12px 12px;
+}
+.price_info_block_bottom p {
+    text-align: center;
+    position: relative;
+    // left: 28px;
+    top: 13px;
+    color: #fff;
+}
+
+.price_list_btn {
+    position: relative;
+    top: 10px;
+    min-width: 289px;
+    height: 59px;
+    background: #260B5D;;
+    border-radius: 12px;
+}
+.price_list_btn a {
+    position: relative;
+    top: 10px;
+    font-family: "PTSans-Bold";
+    font-size: 14px;
+    line-height: 20px;
+    color: #fff;
+    text-align: center;
+}
 //Персонал
 
 .personal {
